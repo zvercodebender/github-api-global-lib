@@ -7,5 +7,5 @@
 // java.io.NotSerializableException: groovyx.net.http.RESTClient
 
 def call(Map config = [:]) {
-    sh "echo Hello (Rick) ${config.name}. Today is ${config.dayOfWeek}."
+    sh "echo Hello ${config.name}. Today is ${config.dayOfWeek}."
 }
