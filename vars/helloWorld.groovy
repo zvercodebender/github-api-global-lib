@@ -1,6 +1,6 @@
 import com.ibm.icu.text.CharsetDetector 
 @Grab(group='com.ibm.icu', module='icu4j', version='72.1')
-Exception in catch: java.io.NotSerializableException
+//Exception in catch: java.io.NotSerializableException
 
 import groovyx.net.http.RESTClient 
 Exception in catch: java.io.NotSerializableException: groovyx.net.http.RESTClient
