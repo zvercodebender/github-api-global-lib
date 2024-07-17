@@ -3,6 +3,7 @@ import com.ibm.icu.text.CharsetDetector
 @Grab(group='com.ibm.icu', module='icu4j', version='72.1')
 //Exception in catch: java.io.NotSerializableException
 
+@Grab(group='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.7')
 import groovyx.net.http.RESTClient 
 //Exception in catch: java.io.NotSerializableException: groovyx.net.http.RESTClient
 //java.io.NotSerializableException: groovyx.net.http.RESTClient
