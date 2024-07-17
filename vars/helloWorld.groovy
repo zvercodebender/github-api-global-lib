@@ -1,6 +1,6 @@
 import com.ibm.icu.text.CharsetDetector 
 import com.ibm.icu.icu4j
-@Grab(group='com.ibm.icu', module='icu4j', version='72.1')
+@Grab(group='com.ibm.icu', module='icu4j', version='75.1')
 //Exception in catch: java.io.NotSerializableException
 
 @Grab(group='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.7')
